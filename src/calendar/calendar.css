@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(218, 213, 213);
+}
+
+.navbar {
+  grid-row: 1/-1;
+  background-color: #834cff;
+  padding: 0.5rem;
+  align-content: center;
+  justify-content: center;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 20px -3px black;
+}
+
+.calendarContainer {
+  display: flex;
+  flex: 1;
+  background-color: aqua;
+  /* height: 100vh; */
+}
+
+.calendarLeft {
+  padding: 1.5rem;
+  display: flex;
+  flex: 0.7;
+  overflow: hidden;
+}
+
+.calendarRight {
+  flex: 0.3;
+  position: inherit;
+  overflow-y: scroll;
+}
+
+.main_calendar {
+  /* width: 100%; */
+  /* margin: 2em; */
+  height: fit-content;
+  /* box-shadow: 1px 1px 20px -3px black; */
+}
+
+button {
+  color: #fff;
+  height: 6%;
+  width: 30%;
+  margin-right: 3%;
+  background-color: dodgerblue;
+  border-radius: 6px;
+  border: cadetblue;
+}
+
+.e-schedule {
+  color: red;
+}
